@@ -42,30 +42,34 @@ section {
   font-style: italic;
   top: 30px;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate();
   opacity: 0;
   transition: 0.5s;
 }
 
 .keyboard-box:hover:before {
-  opacity: 0.2;
+  left: 10%;
+  transform: translate(50%, 0);
+  opacity: 0.4;
 }
 
 .keyboard-box::after {
   content: 'KEYBOARD';
   position: absolute;
   color: #fff;
-  font-size: 4.3em;
+  font-size: 4em;
   font-weight: bold;
   font-style: italic;
   top: 350px;
-  left: 50%;
-  transform: translate(-50%, 0);
+  right: 50%;
+  transform: translate();
   opacity: 0;
   transition: 0.5s;
 }
 
 .keyboard-box:hover:after {
+  right: 5%;
+  transform: translate(-50);
   opacity: 0.2;
 }
 
