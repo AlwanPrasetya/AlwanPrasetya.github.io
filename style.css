@@ -15,8 +15,9 @@ section {
   width: 100%;
 }
 
-#galeri .row > * {
+#Galeri .row > * {
   padding: 0;
+  margin: 0;
 }
 
 #Mykeyboard {
